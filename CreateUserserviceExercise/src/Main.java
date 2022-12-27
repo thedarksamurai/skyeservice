@@ -13,5 +13,8 @@ public class Main {
 
             System.out.println(Arrays.toString(users));
         }
+        String input = "username,password,name";
+        String[] output = userService.parseText(input);
+        System.out.println(Arrays.toString(output));
     }
 }

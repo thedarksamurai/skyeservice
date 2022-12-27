@@ -8,4 +8,7 @@ public class UserService {
         user.setName(name);
         return user;
     }
+        public String[] parseText(String input){
+            return input.split(",");
+        }
 }
