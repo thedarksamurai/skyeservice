@@ -10,6 +10,12 @@ public class Warframe {
         this.rank = rank;
         this.abilities = abilities;
     }
+    public void frame(){
+        System.out.println("Hi I am " + getName() + " it is nice see you to Ordis.");
+    }
+    public void frame(int rank){
+        System.out.println("Rank: " + rank);
+    }
     public String getName() {
         return name;
     }
